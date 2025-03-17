@@ -1,0 +1,80 @@
+package after;
+
+// CLASES ORIGINALES
+
+class LegacyLine
+{
+    public void drawLine(int x1, int y1, int x2, int y2)
+    {
+        System.out.println("line from (" + x1 + ',' + y1 + ") to (" + x2 + ',' 
+          + y2 + ')');
+    }
+}
+
+class LegacyRectangle
+{
+    public void drawRectangle(int x, int y, int w, int h)
+    {
+        System.out.println("rectangle at (" + x + ',' + y + ") with width " + w
+          + " and height " + h);
+    }
+}
+
+// INTERFAZ ADAPTADORA
+
+interface Shape
+{
+	// Todas las figuras (Shape) soportan el método de dibujo draw() a partir de 2 puntos
+  void drawLine(int x1, int y1, int x2, int y2);
+}
+
+// CLASES ADAPTADORAS CONCRETAS (IMPLEMENTAN LA INTERFACE Shape)
+
+/**
+ * Clase adaptadora de una "LegacyLine"
+ * hereda de dicha clase para poder acceder a sus métodos vía super.NombreMétodo(...)
+ * e implementa las operaciones de la interfaz Shape
+ */
+class Line extends LegacyLine implements Shape
+{
+    public void drawLine(int x1, int y1, int x2, int y2)
+    {   // simplemente llama al método de dibujo de su clase padre
+    	// ya que los argumentos coinciden (sólo cambia el nombre del método)
+        super.drawLine(x1, y1, x2, y2);
+    }
+}
+
+/**
+ * Clase adaptadora de un "LegacyRectangle"
+ * hereda de dicha clase para poder acceder a sus métodos vía super.NombreMétodo(...)
+ * e implementa las operaciones de la interfaz Shape
+ */
+class Rectangle extends LegacyRectangle implements Shape
+{
+    public void drawLine(int x1, int y1, int x2, int y2)
+    {
+    	// convertimos el segundo punto en ancho y alto
+    	// y ahora sí podemos llamar al drawRectangle() de la clase original
+        super.drawRectangle(Math.min(x1, x2), Math.min(y1, y2), Math.abs(x2 - x1),
+          Math.abs(y2 - y1));
+    }
+}
+
+public class AdapterAfterClient
+{
+    public static void main()
+    {
+        Shape[] shapes = 
+        {
+            new Line(), new Rectangle()
+        };
+        // Un punto inicial y final fijado por un editor gráfico
+        int x1 = 10, y1 = 20;
+        int x2 = 30, y2 = 60;
+        for (int i = 0; i < shapes.length; ++i)
+        	// para dibujar las figuras ya no hace falta saber su tipo concreto
+        	// ya que están "adaptadas" a la interfaz "Shape"
+          shapes[i].drawLine(x1, y1, x2, y2);
+    }
+}
+

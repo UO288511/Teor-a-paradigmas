@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_3E_CEJAKEeyHT5sdoOjY9g">
+  <modelElement href="FactoryMethodSnackClient.uml#_3D2ZoJAKEeyHT5sdoOjY9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_378fQJAKEeyHT5sdoOjY9g" sourceAnchor="55.0,0.0" targetAnchor="152.0,100.0" superClass="_38JTkJAKEeyHT5sdoOjY9g" subClass="_37J1EJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3O9dcJAKEeyHT5sdoOjY9g"/>
+    <bendpoints xmi:id="_4FakUJAKEeyHT5sdoOjY9g" sourceY="-15" targetX="-91" targetY="28"/>
+    <bendpoints xmi:id="_4FakUZAKEeyHT5sdoOjY9g" sourceX="91" sourceY="-15" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_38D0AJAKEeyHT5sdoOjY9g" sourceAnchor="56.0,0.0" targetAnchor="152.0,100.0" superClass="_38JTkJAKEeyHT5sdoOjY9g" subClass="_37vD4JAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3O9dcpAKEeyHT5sdoOjY9g"/>
+    <bendpoints xmi:id="_4FbLYZAKEeyHT5sdoOjY9g" sourceY="-15" targetX="91" targetY="28"/>
+    <bendpoints xmi:id="_4FbLYpAKEeyHT5sdoOjY9g" sourceX="-91" sourceY="-15" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_38ZLMJAKEeyHT5sdoOjY9g" sourceAnchor="48.0,0.0" targetAnchor="148.0,101.0" superClass="_38iVIJAKEeyHT5sdoOjY9g" subClass="_37UNIJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3O9dcZAKEeyHT5sdoOjY9g"/>
+    <bendpoints xmi:id="_4FakUpAKEeyHT5sdoOjY9g" sourceY="-15" targetX="-78" targetY="28"/>
+    <bendpoints xmi:id="_4FbLYJAKEeyHT5sdoOjY9g" sourceX="78" sourceY="-15" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_38t7UJAKEeyHT5sdoOjY9g" sourceAnchor="60.0,0.0" targetAnchor="148.0,101.0" superClass="_38iVIJAKEeyHT5sdoOjY9g" subClass="_386IkJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3O-rkJAKEeyHT5sdoOjY9g"/>
+    <bendpoints xmi:id="_4FbLY5AKEeyHT5sdoOjY9g" sourceY="-15" targetX="91" targetY="28"/>
+    <bendpoints xmi:id="_4FbLZJAKEeyHT5sdoOjY9g" sourceX="-91" sourceY="-15" targetY="28"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_37J1EJAKEeyHT5sdoOjY9g" name="Chocolate" generalizations="_378fQJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3OgxgJAKEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_37J1EZAKEeyHT5sdoOjY9g" position="16.0,174.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_37J1EpAKEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_37J1E5AKEeyHT5sdoOjY9g" name="drink">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OhYkJAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_37J1FJAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_37J1FZAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_37UNIJAKEeyHT5sdoOjY9g" name="Churros" generalizations="_38ZLMJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3Oh_opAKEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_37UNIZAKEeyHT5sdoOjY9g" position="36.0,460.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_37UNIpAKEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_37UNI5AKEeyHT5sdoOjY9g" name="eat">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OimsJAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_37UNJJAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_37UNJZAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_37jdsJAKEeyHT5sdoOjY9g" name="Client">
+    <modelElement href="FactoryMethodSnackClient.uml#_3OjNwJAKEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_37jdsZAKEeyHT5sdoOjY9g" position="393.0,590.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_37jdspAKEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_37jds5AKEeyHT5sdoOjY9g" name="main" staticOperation="true">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OjNwZAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_37jdtJAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_37jdtZAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_37jdtpAKEeyHT5sdoOjY9g" name="args">
+        <modelElement href="FactoryMethodSnackClient.uml#_3OjNwpAKEeyHT5sdoOjY9g"/>
+        <cardinality xmi:id="_37jdt5AKEeyHT5sdoOjY9g" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_37jduJAKEeyHT5sdoOjY9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_37vD4JAKEeyHT5sdoOjY9g" name="Coke" generalizations="_38D0AJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3Oj00ZAKEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_37vD4ZAKEeyHT5sdoOjY9g" position="197.0,174.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_37vD4pAKEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_37vD45AKEeyHT5sdoOjY9g" name="drink">
+      <modelElement href="FactoryMethodSnackClient.uml#_3Oj00pAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_37vD5JAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_37vD5ZAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_38JTkJAKEeyHT5sdoOjY9g" name="Drinks" abstractClass="true" subclassedBy="_378fQJAKEeyHT5sdoOjY9g _38D0AJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3Okb4JAKEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_38JTkZAKEeyHT5sdoOjY9g" position="10.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_38JTkpAKEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_38JTk5AKEeyHT5sdoOjY9g" abstractOperation="true" name="drink">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OlC8JAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_38JTlJAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_38JTlZAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_38JTlpAKEeyHT5sdoOjY9g" name="giveDrink" staticOperation="true">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OlC8ZAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_38JTl5AKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_38JTmJAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_38JTmZAKEeyHT5sdoOjY9g">
+        <modelElement href="FactoryMethodSnackClient.uml#_3O-EgJAKEeyHT5sdoOjY9g"/>
+        <type xmi:id="_38JTmpAKEeyHT5sdoOjY9g" name="Drinks">
+          <modelElement href="FactoryMethodSnackClient.uml#_3Okb4JAKEeyHT5sdoOjY9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_38JTm5AKEeyHT5sdoOjY9g" name="type">
+        <modelElement href="FactoryMethodSnackClient.uml#_3OlqAJAKEeyHT5sdoOjY9g"/>
+        <cardinality xmi:id="_38JTnJAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+        <type xmi:id="_38JTnZAKEeyHT5sdoOjY9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_38iVIJAKEeyHT5sdoOjY9g" name="Food" abstractClass="true" subclassedBy="_38ZLMJAKEeyHT5sdoOjY9g _38t7UJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3OmREJAKEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_38iVIZAKEeyHT5sdoOjY9g" position="14.0,316.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_38iVIpAKEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_38iVI5AKEeyHT5sdoOjY9g" abstractOperation="true" name="eat">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OmREZAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_38iVJJAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_38iVJZAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_38iVJpAKEeyHT5sdoOjY9g" name="giveFood" staticOperation="true">
+      <modelElement href="FactoryMethodSnackClient.uml#_3Om4IJAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_38iVJ5AKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_38iVKJAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_38iVKZAKEeyHT5sdoOjY9g">
+        <modelElement href="FactoryMethodSnackClient.uml#_3O-EgZAKEeyHT5sdoOjY9g"/>
+        <type xmi:id="_38iVKpAKEeyHT5sdoOjY9g" name="Food">
+          <modelElement href="FactoryMethodSnackClient.uml#_3OmREJAKEeyHT5sdoOjY9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_38iVK5AKEeyHT5sdoOjY9g" name="type">
+        <modelElement href="FactoryMethodSnackClient.uml#_3Om4IZAKEeyHT5sdoOjY9g"/>
+        <cardinality xmi:id="_38iVLJAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+        <type xmi:id="_38iVLZAKEeyHT5sdoOjY9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_386IkJAKEeyHT5sdoOjY9g" name="Hamburguer" generalizations="_38t7UJAKEeyHT5sdoOjY9g">
+    <modelElement href="FactoryMethodSnackClient.uml#_3Om4IpAKEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_386IkZAKEeyHT5sdoOjY9g" position="193.0,460.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_386IkpAKEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_386Ik5AKEeyHT5sdoOjY9g" name="eat">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OnfMJAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_386IlJAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_386IlZAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_39GV0JAKEeyHT5sdoOjY9g" name="SnackClient">
+    <modelElement href="FactoryMethodSnackClient.uml#_3OnfMZAKEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_39GV0ZAKEeyHT5sdoOjY9g" position="13.0,589.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_39GV0pAKEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_39GV05AKEeyHT5sdoOjY9g" name="createSnack">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OoGQJAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_39GV1JAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_39GV1ZAKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_39GV1pAKEeyHT5sdoOjY9g" name="typeOfSnack">
+        <modelElement href="FactoryMethodSnackClient.uml#_3OoGQZAKEeyHT5sdoOjY9g"/>
+        <cardinality xmi:id="_39GV15AKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+        <type xmi:id="_39GV2JAKEeyHT5sdoOjY9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_39GV2ZAKEeyHT5sdoOjY9g" name="createSnackNotCompatible">
+      <modelElement href="FactoryMethodSnackClient.uml#_3OotUJAKEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_39GV2pAKEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_39GV25AKEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

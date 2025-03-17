@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_i57okJALEeyHT5sdoOjY9g">
+  <modelElement href="NoPatternSnackClient.uml#_i4WUMJALEeyHT5sdoOjY9g"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jwGbkJALEeyHT5sdoOjY9g" name="Chocolate">
+    <modelElement href="NoPatternSnackClient.uml#_jDbi0JALEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_jwGbkZALEeyHT5sdoOjY9g" position="499.0,314.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jwGbkpALEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_jwGbk5ALEeyHT5sdoOjY9g" name="drink">
+      <modelElement href="NoPatternSnackClient.uml#_jDcJ4JALEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_jwGblJALEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_jwGblZALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jwrqYJALEeyHT5sdoOjY9g" name="Coke">
+    <modelElement href="NoPatternSnackClient.uml#_jDgbUpALEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_jwrqYZALEeyHT5sdoOjY9g" position="327.0,319.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jwrqYpALEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_jwrqY5ALEeyHT5sdoOjY9g" name="drink">
+      <modelElement href="NoPatternSnackClient.uml#_jDhCYJALEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_jwrqZJALEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_jwrqZZALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jw9XMJALEeyHT5sdoOjY9g" name="Hamburguer">
+    <modelElement href="NoPatternSnackClient.uml#_jDhpcJALEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_jw9XMZALEeyHT5sdoOjY9g" position="323.0,200.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jw9XMpALEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_jw9XM5ALEeyHT5sdoOjY9g" name="eat">
+      <modelElement href="NoPatternSnackClient.uml#_jDhpcZALEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_jw9XNJALEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_jw9XNZALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jwQzoJALEeyHT5sdoOjY9g" name="Churros">
+    <modelElement href="NoPatternSnackClient.uml#_jDcw8JALEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_jwQzoZALEeyHT5sdoOjY9g" position="508.0,200.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jwQzopALEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_jwQzo5ALEeyHT5sdoOjY9g" name="eat">
+      <modelElement href="NoPatternSnackClient.uml#_jDd_EJALEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_jwQzpJALEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_jwQzpZALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jxPEAJALEeyHT5sdoOjY9g" name="SnackClient">
+    <modelElement href="NoPatternSnackClient.uml#_jDiQgJALEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_jxPEAZALEeyHT5sdoOjY9g" position="16.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jxPEApALEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_jxPEA5ALEeyHT5sdoOjY9g" name="createSnack">
+      <modelElement href="NoPatternSnackClient.uml#_jDi3kJALEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_jxPEBJALEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_jxPEBZALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jxPEBpALEeyHT5sdoOjY9g" name="typeOfSnack">
+        <modelElement href="NoPatternSnackClient.uml#_jDi3kZALEeyHT5sdoOjY9g"/>
+        <cardinality xmi:id="_jxPEB5ALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+        <type xmi:id="_jxPECJALEeyHT5sdoOjY9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jxPECZALEeyHT5sdoOjY9g" name="createWeirdSnack">
+      <modelElement href="NoPatternSnackClient.uml#_jDi3kpALEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_jxPECpALEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_jxPEC5ALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jxPEDJALEeyHT5sdoOjY9g" name="typeOfSnack">
+        <modelElement href="NoPatternSnackClient.uml#_jDi3k5ALEeyHT5sdoOjY9g"/>
+        <cardinality xmi:id="_jxPEDZALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+        <type xmi:id="_jxPEDpALEeyHT5sdoOjY9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jwdA4JALEeyHT5sdoOjY9g" name="Client">
+    <modelElement href="NoPatternSnackClient.uml#_jDd_EZALEeyHT5sdoOjY9g"/>
+    <visualProperties xmi:id="_jwdA4ZALEeyHT5sdoOjY9g" position="17.0,200.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jwdA4pALEeyHT5sdoOjY9g" label="+"/>
+    <operations xmi:id="_jwdA45ALEeyHT5sdoOjY9g" name="main" staticOperation="true">
+      <modelElement href="NoPatternSnackClient.uml#_jDf0QZALEeyHT5sdoOjY9g"/>
+      <visibility xmi:id="_jwdA5JALEeyHT5sdoOjY9g" label="+"/>
+      <cardinality xmi:id="_jwdA5ZALEeyHT5sdoOjY9g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jwdA5pALEeyHT5sdoOjY9g" name="args">
+        <modelElement href="NoPatternSnackClient.uml#_jDgbUJALEeyHT5sdoOjY9g"/>
+        <cardinality xmi:id="_jwdA55ALEeyHT5sdoOjY9g" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_jwdA6JALEeyHT5sdoOjY9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

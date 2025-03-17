@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_i4WUMJALEeyHT5sdoOjY9g" name="NoPatternSnackClient">
+    <eAnnotations xmi:id="_i-OSsJALEeyHT5sdoOjY9g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_i-OSsZALEeyHT5sdoOjY9g" source="codegen">
+        <details xmi:id="_i-OSspALEeyHT5sdoOjY9g" key="codegenDirectory" value="/NoPatternSnackClient/src"/>
+        <details xmi:id="_jEvKYJALEeyHT5sdoOjY9g" key="AssociatedSourceCode" value="/NoPatternSnackClient/src/Chocolate.java;2845506894/1;/NoPatternSnackClient/src/Churros.java;264172638/1;/NoPatternSnackClient/src/Client.java;1793859514/1;/NoPatternSnackClient/src/Coke.java;3367526057/1;/NoPatternSnackClient/src/Hamburguer.java;1187261897/1;/NoPatternSnackClient/src/SnackClient.java;857264964/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_jDemIJALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_jDemIZALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_jDemIpALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_jDfNMJALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_jDfNMZALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_jDfNMpALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_jDfNM5ALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_jDfNNJALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_jDf0QJALEeyHT5sdoOjY9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jDbi0JALEeyHT5sdoOjY9g" name="Chocolate">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jDjeoJALEeyHT5sdoOjY9g" name="drink" specification="_jDcJ4JALEeyHT5sdoOjY9g">
+        <language>java</language>
+        <body>/* DRINKING CHOCOLATE */&#xD;
+		System.out.println(&quot;Drinking chocolate&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jDcJ4JALEeyHT5sdoOjY9g" name="drink" method="_jDjeoJALEeyHT5sdoOjY9g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jDcw8JALEeyHT5sdoOjY9g" name="Churros">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jDjeoZALEeyHT5sdoOjY9g" name="eat" specification="_jDd_EJALEeyHT5sdoOjY9g">
+        <language>java</language>
+        <body>/* EATING CHURROS */&#xD;
+		System.out.println(&quot;Eating churros&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jDd_EJALEeyHT5sdoOjY9g" name="eat" method="_jDjeoZALEeyHT5sdoOjY9g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jDd_EZALEeyHT5sdoOjY9g" name="Client">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jDkFsJALEeyHT5sdoOjY9g" name="main" specification="_jDf0QZALEeyHT5sdoOjY9g">
+        <ownedParameter xmi:id="_jDkFsZALEeyHT5sdoOjY9g" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDkFspALEeyHT5sdoOjY9g" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>//Client: Hamburguer&#xD;
+		SnackClient c1 = new SnackClient();&#xD;
+		System.out.println(&quot;Snack for Client 1:&quot;);&#xD;
+		c1.createSnack(&quot;Hamburguer&quot;);&#xD;
+&#xD;
+		//Client: Chocolate&#xD;
+		SnackClient c2 = new SnackClient();&#xD;
+		System.out.println(&quot;Snack for Client 2:&quot;);&#xD;
+		c2.createSnack(&quot;Churros&quot;);&#xD;
+&#xD;
+		//A weird client&#xD;
+		SnackClient c3 = new SnackClient();&#xD;
+		System.out.println(&quot;Snack for Client 3:&quot;);&#xD;
+		c3.createWeirdSnack(&quot;Churros&quot;);&#xD;
+&#xD;
+		//Another weird client&#xD;
+		SnackClient c4 = new SnackClient();&#xD;
+		System.out.println(&quot;Snack for Client 4:&quot;);&#xD;
+		c4.createWeirdSnack(&quot;Hamburguer&quot;);&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jDf0QZALEeyHT5sdoOjY9g" name="main" isStatic="true" method="_jDkFsJALEeyHT5sdoOjY9g">
+        <ownedParameter xmi:id="_jDgbUJALEeyHT5sdoOjY9g" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDgbUZALEeyHT5sdoOjY9g" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jDgbUpALEeyHT5sdoOjY9g" name="Coke">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jDkFs5ALEeyHT5sdoOjY9g" name="drink" specification="_jDhCYJALEeyHT5sdoOjY9g">
+        <language>java</language>
+        <body>/* DRINKING COKE */&#xD;
+		System.out.println(&quot;Drinking coke&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jDhCYJALEeyHT5sdoOjY9g" name="drink" method="_jDkFs5ALEeyHT5sdoOjY9g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jDhpcJALEeyHT5sdoOjY9g" name="Hamburguer">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jDkFtJALEeyHT5sdoOjY9g" name="eat" specification="_jDhpcZALEeyHT5sdoOjY9g">
+        <language>java</language>
+        <body>/* EATING HAMBURGUER */&#xD;
+		System.out.println(&quot;Eating hamburguer&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jDhpcZALEeyHT5sdoOjY9g" name="eat" method="_jDkFtJALEeyHT5sdoOjY9g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jDiQgJALEeyHT5sdoOjY9g" name="SnackClient">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jDkFtZALEeyHT5sdoOjY9g" name="createSnack" specification="_jDi3kJALEeyHT5sdoOjY9g">
+        <ownedParameter xmi:id="_jDkFtpALEeyHT5sdoOjY9g" name="typeOfSnack">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;This is a standard snack&quot;);&#xD;
+&#xD;
+		/* We choose a compatible food and drink */&#xD;
+		switch (typeOfSnack) {&#xD;
+		case &quot;Hamburguer&quot;:&#xD;
+			// We create the products to consume&#xD;
+			Hamburguer h = new Hamburguer();&#xD;
+			Coke c = new Coke();&#xD;
+&#xD;
+			// we use them&#xD;
+			h.eat();&#xD;
+			c.drink();&#xD;
+			break;&#xD;
+		case &quot;Churros&quot;:&#xD;
+			// we create the products to consume  &#xD;
+			Churros ch = new Churros();&#xD;
+			Chocolate d = new Chocolate();&#xD;
+&#xD;
+			// we use them&#xD;
+			ch.eat();&#xD;
+			d.drink();&#xD;
+			break;&#xD;
+&#xD;
+		default: // Nothing&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jDkFt5ALEeyHT5sdoOjY9g" name="createWeirdSnack" specification="_jDi3kpALEeyHT5sdoOjY9g">
+        <ownedParameter xmi:id="_jDkFuJALEeyHT5sdoOjY9g" name="typeOfSnack">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;This is a weird snack&quot;);&#xD;
+&#xD;
+		/* We choose an incompatible food and drink */&#xD;
+		switch (typeOfSnack) {&#xD;
+		case &quot;Hamburguer&quot;:&#xD;
+			// We create the products to consume&#xD;
+			Hamburguer h = new Hamburguer();&#xD;
+			Chocolate d = new Chocolate();&#xD;
+&#xD;
+			// we use them&#xD;
+			h.eat();&#xD;
+			d.drink();&#xD;
+			break;&#xD;
+		case &quot;Churros&quot;:&#xD;
+			// we create the products to consume  &#xD;
+			Churros ch = new Churros();&#xD;
+			Coke c = new Coke();&#xD;
+&#xD;
+			// we use them&#xD;
+			ch.eat();&#xD;
+			c.drink();&#xD;
+			break;&#xD;
+&#xD;
+		default: // Nothing&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jDi3kJALEeyHT5sdoOjY9g" name="createSnack" method="_jDkFtZALEeyHT5sdoOjY9g">
+        <ownedParameter xmi:id="_jDi3kZALEeyHT5sdoOjY9g" name="typeOfSnack">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jDi3kpALEeyHT5sdoOjY9g" name="createWeirdSnack" method="_jDkFt5ALEeyHT5sdoOjY9g">
+        <ownedParameter xmi:id="_jDi3k5ALEeyHT5sdoOjY9g" name="typeOfSnack">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_i-OSs5ALEeyHT5sdoOjY9g">
+      <eAnnotations xmi:id="_i-OStJALEeyHT5sdoOjY9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_i-OStZALEeyHT5sdoOjY9g" base_Package="_i4WUMJALEeyHT5sdoOjY9g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>
